@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#7959fd"
+    app:cardCornerRadius="3dp"
+    android:layout_marginBottom="5dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pCategory2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/proID2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:padding="5dp"
+                android:text="Product ID"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="#effe"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/progress2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:padding="5dp"
+                android:text="Unknown"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="#effe"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/r2Image1"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/load"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/r2Image2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/load"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/r2Image3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/load"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/curBid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:text="Current Bid:₦000"
+            android:textAlignment="textEnd"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#effe"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@string/product_description_e_g_model_class_color_size_etc"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/Sdate2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Start Date: 00/00/0000"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/Edate2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="End Date: 00/00/0000"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/USD2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="NCZDFHDFNZXYDJE"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

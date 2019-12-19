@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="User Actions">
+        <menu>
+            <item
+                android:id="@+id/prof"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Profile" />
+            <item
+                android:id="@+id/payAuction"
+                android:icon="@drawable/ic_stay_current_portrait_black_24dp"
+                android:title="Payment" />
+
+
+
+
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_settings" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <item android:title="Contact US">
+        <item
+        android:id="@+id/complain"
+        android:icon="@drawable/ic_assignment_late_white_24dp"
+        android:title="Report issue" />
+
+        <item
+            android:id="@+id/hot"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:title="Hotline" />
+        <item
+            android:id="@+id/hep"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+
+    </item>
+
+</menu>

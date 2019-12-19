@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stanleyj.android.myauction.ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradientbackground"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Nave"
+        app:titleTextColor="#fff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/topPanel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/gradientbackground"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="200dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_add_a_photo2_black_24dp"
+                    app:civ_border_color="#a45252"
+                    app:civ_border_width="2dp" />
+
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/email"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#fff"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="#fff"
+                    android:src="@drawable/ic_border_color_black_24dp" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/name"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/name"
+                    android:inputType="textAutoCorrect|textAutoComplete|textCapSentences"
+                    android:maxLines="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#000"
+                    app:met_floatingLabel="normal" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/addrex"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_location_city_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/address"
+                    android:inputType="textAutoCorrect|textAutoComplete|textCapSentences"
+                    android:maxLines="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#000"
+                    app:met_floatingLabel="normal" />
+
+                <Spinner
+                    android:id="@+id/state_spinner"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3e4ba6"
+                    android:gravity="center" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/dob"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_today_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/date_of_birth"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#000"
+                    app:met_floatingLabel="normal"
+                    app:met_maxCharacters="4" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/nin"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_star_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/national_identification"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#000"
+                    app:met_floatingLabel="normal" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/occupation"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_work_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/occupation"
+                    android:inputType="textAutoCorrect|textAutoComplete|textCapSentences"
+                    android:maxLines="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#000"
+                    app:met_floatingLabel="normal" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/phn"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_stay_current_portrait_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#000"
+                    app:met_floatingLabel="normal"
+                    app:met_maxCharacters="11" />
+
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/back4"
+                    android:contentDescription="@string/done"
+                    android:drawableRight="@drawable/ic_file_upload_black_24dp"
+                    android:paddingRight="14.5dp"
+                    android:text="@string/common_google_play_services_update_button"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

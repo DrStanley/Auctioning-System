@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stanleyj.android.myauction.ComplainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/complain_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Nave"
+        app:titleTextColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/ComproducID"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/product_id"
+            android:inputType="textAutoCorrect|textAutoComplete|textCapSentences"
+            android:maxLines="1"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#000"
+            app:met_floatingLabel="normal"
+            app:met_textColor="@color/colorPrimary"
+            app:met_textColorHint="@color/colorPrimary" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/comTitle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:drawablePadding="10dp"
+            android:hint="Title"
+            android:inputType="textAutoCorrect|textAutoComplete|textCapSentences"
+            android:maxLines="1"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#000"
+            app:met_floatingLabel="normal"
+            app:met_textColor="@color/colorPrimary"
+            app:met_textColorHint="@color/colorPrimary" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/comdetails"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Complain Details"
+            android:inputType="textAutoCorrect|textAutoComplete|textCapSentences|textMultiLine"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:textColor="#000"
+            android:scrollbars="vertical"
+            app:met_floatingLabel="normal"
+            app:met_textColor="@color/colorPrimary"
+            app:met_textColorHint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/sendComplain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/bid_it"
+            android:text="Send"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

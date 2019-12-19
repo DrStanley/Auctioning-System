@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFfFF</color>
+    <color name="primaryDark">#292b3d</color>
+    <color name="graylight">#fafafa</color>
+    <color name="graylight2">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="darkgray">#4462e9</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimarybar">#5168e9</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#838df5</color>
+    <color name="Picker">#d7d7d7</color>
+    <color name="black">#00101010</color>
+</resources>

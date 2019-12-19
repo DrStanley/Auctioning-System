@@ -1,0 +1,56 @@
+Index: app/src/main/java/com/stanleyj/android/myauction/ProfileActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/stanleyj/android/myauction/ProfileActivity.java	(revision )
++++ app/src/main/java/com/stanleyj/android/myauction/ProfileActivity.java	(revision )
+@@ -229,7 +229,8 @@
+         }
+     }
+ 
+-    private void update2() {
++    private void
++    update2() {
+         Toast.makeText(getApplicationContext(), "update 2 running", Toast.LENGTH_SHORT).show();
+         name = nam.getText().toString();
+         address = adrex.getText().toString();
+\ No newline at end of file
+Index: app/app.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/app.iml	(revision )
++++ app/app.iml	(revision )
+@@ -65,14 +65,6 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+@@ -81,6 +73,14 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
+\ No newline at end of file

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/trying"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.stanleyj.android.myauction.ForgotActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/password_reset"
+            android:textAlignment="center"
+            android:textColor="#3846a3"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/f_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="#3e4ba6"
+            app:met_floatingLabel="normal" />
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editsat"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="@string/Reset"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

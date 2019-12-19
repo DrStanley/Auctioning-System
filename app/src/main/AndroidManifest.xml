@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stanleyj.android.myauction">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AuctionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AllAuctionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyAuctionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddNewAuctionActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AuctionDetailActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name="Admin.AdminActivity" />
+        <activity android:name="Admin.Admin_All_Auction_Activity" />
+        <activity android:name="Admin.AdminDetailedAuctionActivity" />
+        <activity android:name=".PaymentFinalActivity" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.DIAL" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name=".ComplainActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".WinnersActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity android:name="Admin.AdminComplainActivity"></activity>
+    </application>
+
+</manifest>

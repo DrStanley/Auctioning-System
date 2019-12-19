@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Nave">
+        <item name="android:textColor">#ffff</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:color">#ffff</item>
+        <item name="android:actionMenuTextColor">#ffff</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:toolbarStyle">@android:style/ThemeOverlay.Material.ActionBar</item>
+        <item name="android:textColorSecondary">#ffff</item>
+    </style>
+
+    <style name="Nave2">
+        <item name="android:textColor">#ffff</item>
+        <item name="android:background">#FF3D4AA5</item>
+        <item name="android:color">#ffff</item>
+        <item name="android:actionMenuTextColor">#ffff</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:toolbarStyle">@android:style/ThemeOverlay.Material.ActionBar</item>
+        <item name="android:textColorSecondary">#ffff</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

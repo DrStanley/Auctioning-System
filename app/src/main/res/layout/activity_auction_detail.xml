@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stanleyj.android.myauction.AuctionDetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Nave"
+        app:titleTextColor="#fff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/detail_back"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#7959fd"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="3dp"
+                app:contentPadding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/product_name"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Category"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/dproID"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="2"
+                            android:padding="5dp"
+                            android:text="Product ID"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:textColor="#effe"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/dImage1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/load"
+                            android:scaleType="centerCrop" />
+                        <ImageView
+                            android:id="@+id/dImage2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/load"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/dImage3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/load"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/dcurBid"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="2"
+                            android:padding="5dp"
+                            android:text="Current Bid:₦000"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:textColor="#effe"
+                            android:textStyle="bold" />
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/countdown"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:padding="5dp"
+                            android:textColorHighlight="#efe789ba"
+                            app:met_floatingLabel="normal"
+                            android:hint="hrs:min:sec"
+                            android:textColorHint="#fff"
+                            app:met_floatingLabelTextColor="#fff"
+                            app:met_baseColor="#fff"
+                            app:met_primaryColor="#fff"
+                            app:met_textColor="#FFF"
+                            app:met_textColorHint="#FFF"
+                            android:textAlignment="center"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:textColor="#fff"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/dDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/product_description_e_g_model_class_color_size_etc"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                        android:textColor="#fff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/dSdate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Start Date: 00/00/0000"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/dEdate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="End Date: 00/00/0000"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/bids"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:background="@drawable/bid_it_back"
+                android:drawablePadding="10dp"
+                android:hint="@string/amount"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="#000"
+                android:textColorHighlight="#efe789ba"
+                app:met_floatingLabel="normal"
+                app:met_textColor="#FFF"
+                app:met_textColorHint="#FFF" />
+
+            <Button
+                android:id="@+id/butBid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bid_it"
+                android:text="@string/bid"
+                android:textColor="#FFF" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

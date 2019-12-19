@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">iAuction</string>
+    <string name="auction_platform">Auction PlatForm</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="read_terms_and_condition">Read Terms And Condition</string>
+    <string name="login_to">Login To</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Reset Password?</string>
+    <string name="image">Image</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="comfirm_password">Comfirm Password</string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="address">Address</string>
+    <string name="date_of_birth">Year of Birth (e.g 1990)</string>
+    <string name="occupation">Occupation</string>
+    <string name="Reset">reset</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="state">State</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="exist">Exit</string>
+    <string name="profile">Profile</string>
+    <string name="help">Help</string>
+    <string name="my_acutions">My Auctions</string>
+    <string name="auction_list">Auction List</string>
+    <string name="winners_list">Winners List</string>
+    <string name="title_activity_auction_list">AuctionListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description_e_g_model_class_color_size_etc">Product Description (e.g Model,Class,Color,Size.etc)</string>
+    <string name="auction">Auctions</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="start_date_time">Start Date/Time:</string>
+    <string name="end_date_time">End Date/Time:</string>
+    <string name="image_3">Image 3</string>
+    <string name="image_2">Image 2</string>
+    <string name="image_1">Image 1</string>
+    <string name="auctioned_image">Auctioned Image</string>
+    <string name="minimum_bid">Minimum Bid</string>
+    <string name="bid">Bid</string>
+    <string name="amount">Amount</string>
+    <string name="product_id">Product ID e.g P154800030900</string>
+    <string name="pay">PAY</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="how_to_use_iauction">How To Use iAuction</string>
+    <string name="how_to_register">To use this application one has to register with a valid email address
+        and a password for him or her to login.\nAfter the registration, user is required to login with
+        the registered email and password and update his or profile from the side menu.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable instant notification</string>
+    <string name="pref_description_social_recommendations">Recommended for notification of newly auctioned
+        product
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Ozoezi Stanley</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New auction notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="national_identification">National Identification (NIN)</string>
+
+</resources>

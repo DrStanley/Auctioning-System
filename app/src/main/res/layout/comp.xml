@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="3dp"
+    android:background="#ccc"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cTitile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/complainId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ComplainerId"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reason"
+        android:maxLines="1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/IDS"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+</LinearLayout>
